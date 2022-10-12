@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Cabin:wght@500&family=Enriqueta:wght@600&family=Inter&family=Londrina+Solid&family=Open+Sans:wght@800&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Sarala&family=Varela+Round&display=swap');
+/*Font - Varela Round*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Cabin:wght@500&family=Enriqueta:wght@600&family=Inter&family=Londrina+Solid&family=Open+Sans:wght@800&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Sarala&family=Telex&family=Varela+Round&display=swap');
+/*Font - Telex*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Cabin:wght@500&family=Enriqueta:wght@600&family=Inter&family=Londrina+Solid&family=Nobile:wght@500&family=Open+Sans:wght@800&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Sarala&family=Telex&family=Varela+Round&display=swap');
+/*Font - Nobile*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Cabin:wght@500&family=Enriqueta:wght@600&family=Inter&family=Londrina+Solid&family=Nobile:wght@500&family=Open+Sans:wght@800&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Rosario:wght@600&family=Sarala&family=Telex&family=Varela+Round&display=swap');
+/*Font - Rosario*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Bree+Serif&family=Cabin:wght@500&family=Enriqueta:wght@600&family=Inter&family=Londrina+Solid&family=Nobile:wght@500&family=Open+Sans:wght@800&family=Outfit:wght@800&family=Roboto+Condensed&family=Roboto:wght@400;500&family=Rosario:wght@600&family=Sarala&family=Telex&family=Varela+Round&display=swap');
+/*Font - Outfit*/
+
+
+body {
+    background-image : url(bg.jpeg);
+    margin : auto;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+
+.head {
+    font-family: Outfit;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color : #fc0328;
+    background-image: url(bg-hd.png);
+    width : 100%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30%;
+    width : 36%;
+    float: left;
+    padding : 20px;
+    position: relative;
+    left : 30px;
+}
+
+p {
+    color : rgb(10, 10, 10);
+    font-size: 15px;
+    font-family: Nobile;
+    padding : 8px 12px 16px;
+    text-decoration: double;
+    width: 28%;
+    background-color: #b5f3e6;
+    border-radius: 36px;
+
+}
+
+.paragraph {
+    color : white;
+    font-size: 20px;
+    font-family: Nobile;
+    padding : 8px;
+    float: right;
+    background-image: url(bg-p.jpeg);
+    width : 98%;
+    border: #fc0328; 
+    border-radius: 3%;
+}
+
+#sec-hd {
+    font-family: Varela Round;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+    background-color: #fc0328;
+    width : 38%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 70%;
+}
+
+.marque {
+    font-size: 40px;
+    justify-content: center;
+    font-weight: bold;
+    color : #fff;
+    font-family: Telex;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.pic-rat {
+    width : 420px;
+    height: 489px;
+    justify-content: flex-start;
+    display: flex;
+    float: right;
+    position: absolute;
+    top : 139px;
+    right : 90px;
+}
+
+.caption {
+    position: absolute;
+    top : 602px;
+    right: 150px;
+    font-size: 30px;
+    color: rgb(31, 30, 28);
+    font-weight: bold;
+    background-color: darkgoldenrod;
+    width : 22%;
+    border-radius: 41px;
+}
+
+
+#foot {
+    font-size: 35px;
+    color : rgb(248, 15, 15);
+    font-family : Outfit;
+    font-weight: bold;
+    width : 85%;
+    background-color: rgb(247, 231, 6);
+    border-radius: 12px;
+    padding-left: 12px;
+}
+
+.sub-button {
+    position: relative;
+    left : 40%;
+    width: 19%;
+    height: 90px;
+    border-radius : 37px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    background-color: #fc0328;
+    border-style: none;
+}
+
+.btcolor {
+    color : #fff;
+    text-decoration: solid;
+}
+
+#sec-con {
+    color : #fff;
+    width : 99%;
+    background-image: url(bg-2.jpeg);
+    font-family: Nobile;
+    font-weight: initial;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hd-con {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 252, 252);
+    background-color: #310dfd;
+    width : 34%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    top : 43px;
+    font-family: Varela Round;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: solid;
+    color :#fc0328;
+}
+
